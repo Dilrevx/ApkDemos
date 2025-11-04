@@ -1,0 +1,10 @@
+[2025-06-10 14:29:04] [javac-extractor-15856] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 21 --javac-args @@@D:\workspace\2025\250530-mobile-demos\demo\codeql-db\log\ext\javac-3.args
+                                              user.dir=D:\workspace\2025\250530-mobile-demos\demo
+[2025-06-10 14:29:04] [javac-extractor-15856] Compilation name D:/workspace/2025/250530-mobile-demos/demo/codeql-db/trap/java/diagnostics/diagnostic-3.trap.gz
+[2025-06-10 14:29:04] [javac-extractor-15856] [WARN] Appending source destination directory D:\workspace\2025\250530-mobile-demos\demo\app\build\generated\ap_generated_sources\releaseUnitTest\out to sourcepath
+[2025-06-10 14:29:07] [javac-extractor-15856] Javac init time: 1.9s
+[2025-06-10 14:29:07] [javac-extractor-15856] Javac attr time: 0.0s
+[2025-06-10 14:29:07] [javac-extractor-15856] Extractor time: 0.0s
+[2025-06-10 14:29:07] [javac-extractor-15856] Other time: 0.4s
+[2025-06-10 14:29:07] [javac-extractor-15856] Total time: 2.3s

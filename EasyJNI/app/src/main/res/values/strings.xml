@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EasyJNI</string>
+    <string name="input_hint">Input your flag here:</string>
+    <string name="input_placeholder">flag</string>
+    <string name="btn_check">Check Flag</string>
+    <string name="press_btn_hint">Click button to check your flag</string>
+</resources>

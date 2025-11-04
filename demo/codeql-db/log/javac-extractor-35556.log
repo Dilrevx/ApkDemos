@@ -1,0 +1,32 @@
+[2025-06-10 14:28:55] [javac-extractor-35556] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 21 --javac-args @@@D:\workspace\2025\250530-mobile-demos\demo\codeql-db\log\ext\javac-2.args
+                                              user.dir=D:\workspace\2025\250530-mobile-demos\demo
+[2025-06-10 14:28:55] [javac-extractor-35556] Compilation name D:/workspace/2025/250530-mobile-demos/demo/codeql-db/trap/java/diagnostics/diagnostic-2.trap.gz
+[2025-06-10 14:28:55] [javac-extractor-35556] [WARN] Appending source destination directory D:\workspace\2025\250530-mobile-demos\demo\app\build\generated\ap_generated_sources\debugUnitTest\out to sourcepath
+[2025-06-10 14:28:57] [javac-extractor-35556] Processing file D:\workspace\2025\250530-mobile-demos\demo\app\src\test\java\com\example\demo\ExampleUnitTest.java
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\Object.members\Object.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\annotation\Annotation.members\Annotation.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\annotation\Retention.members\Retention.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\annotation\RetentionPolicy.members\RetentionPolicy.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\annotation\Target.members\Target.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\annotation\ElementType.members\ElementType.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\Cloneable.members\Cloneable.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\io\Serializable.members\Serializable.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\Class.members\Class.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\reflect\GenericDeclaration.members\GenericDeclaration.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\reflect\Type.members\Type.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\reflect\AnnotatedElement.members\AnnotatedElement.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\invoke\TypeDescriptor$OfField.members\TypeDescriptor$OfField.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\invoke\TypeDescriptor.members\TypeDescriptor.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\Throwable.members\Throwable.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\String.members\String.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\Deprecated.members\Deprecated.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\Iterable.members\Iterable.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] [WARN] Not rewriting trap file for D:\workspace\2025\250530-mobile-demos\demo\codeql-db\trap\java\classes\java\lang\Error.members\Error.members#52.0-1749454011534-java.trap.gz as it exists
+[2025-06-10 14:28:57] [javac-extractor-35556] Processing JAR file: C:/Users/17476/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar
+[2025-06-10 14:28:57] [javac-extractor-35556] Processing JAR file: C:/Users/17476/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar
+[2025-06-10 14:28:57] [javac-extractor-35556] Javac init time: 2.0s
+[2025-06-10 14:28:57] [javac-extractor-35556] Javac attr time: 0.0s
+[2025-06-10 14:28:57] [javac-extractor-35556] Extractor time: 0.3s
+[2025-06-10 14:28:57] [javac-extractor-35556] Other time: 0.3s
+[2025-06-10 14:28:57] [javac-extractor-35556] Total time: 2.7s

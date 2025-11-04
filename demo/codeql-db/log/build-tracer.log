@@ -1,0 +1,208 @@
+[T 06:27:45 39468] Initializing tracer.
+[T 06:27:45 39468] Initializing tags.
+[T 06:27:45 39468] CodeQL CLI version 2.21.4
+[T 06:27:45 39468] Initializing tracer.
+[T 06:27:45 39468] Initializing tags.
+[T 06:27:45 39468] Allocated ID 8687A56400009A2C_0000000000000001 (parent )
+[T 06:27:45 39468] ==== Candidate to intercept: C:\ProgramData\chocolatey\lib\codeql\tools\codeql\tools\win64\runner.exe (14152) ====
+[T 06:27:46 39468] Lua: === Intercepted call to c:\programdata\chocolatey\lib\codeql\tools\codeql\tools\win64\runner.exe ===
+[T 06:27:46 39468] Executing the following tracer actions:
+[T 06:27:46 39468] Tracer actions:
+[T 06:27:46 39468] pre_invocations(0)
+[T 06:27:46 39468] post_invocations(0)
+[T 06:27:46 39468] trace_languages(1): [java]
+[T 06:27:46 14152] Initializing tracer.
+[T 06:27:46 14152] Initializing tags.
+[T 06:27:46 14152] ID set to 8687A56400009A2C_0000000000000001 (parent root)
+[T 06:27:46 14152] Allocated ID B3233C5C00003748_0000000000000001 (parent 8687A56400009A2C_0000000000000001)
+[T 06:27:46 14152] ==== Candidate to intercept: C:\Windows\System32\cmd.exe (39244) ====
+[T 06:27:46 14152] Lua: === Intercepted call to c:\windows\system32\cmd.exe ===
+[T 06:27:46 14152] Executing the following tracer actions:
+[T 06:27:46 14152] Tracer actions:
+[T 06:27:46 14152] pre_invocations(0)
+[T 06:27:46 14152] post_invocations(0)
+[T 06:27:46 14152] trace_languages(1): [java]
+[T 06:27:46 39244] Initializing tracer.
+[T 06:27:46 39244] Initializing tags.
+[T 06:27:46 39244] ID set to B3233C5C00003748_0000000000000001 (parent 8687A56400009A2C_0000000000000001)
+[T 06:27:46 39244] Allocated ID F0F95A050000994C_0000000000000001 (parent B3233C5C00003748_0000000000000001)
+[T 06:27:46 39244] ==== Candidate to intercept: C:\Program Files\Common Files\Oracle\Java\javapath_target_10907109\java.exe (40848) ====
+[T 06:27:46 39244] Lua: === Intercepted call to c:\program files\common files\oracle\java\javapath_target_10907109\java.exe ===
+[T 06:27:46 39244] Executing the following tracer actions:
+[T 06:27:46 39244] Tracer actions:
+[T 06:27:46 39244] pre_invocations(0)
+[T 06:27:46 39244] post_invocations(0)
+[T 06:27:46 39244] trace_languages(1): [java]
+[T 06:27:46 40848] Initializing tracer.
+[T 06:27:46 40848] Initializing tags.
+[T 06:27:46 40848] ID set to F0F95A050000994C_0000000000000001 (parent B3233C5C00003748_0000000000000001)
+[T 06:27:46 40848] Allocated ID DF68F89200009F90_0000000000000001 (parent F0F95A050000994C_0000000000000001)
+[T 06:27:46 40848] ==== Candidate to intercept: C:\Program Files\Java\jdk-21\bin\java.exe (1748) ====
+[T 06:27:46 40848] Lua: === Intercepted call to c:\program files\java\jdk-21\bin\java.exe ===
+[T 06:27:46 40848] Executing the following tracer actions:
+[T 06:27:46 40848] Tracer actions:
+[T 06:27:46 40848] pre_invocations(0)
+[T 06:27:46 40848] post_invocations(0)
+[T 06:27:46 40848] trace_languages(1): [java]
+[T 06:27:46 1748] Initializing tracer.
+[T 06:27:46 1748] Initializing tags.
+[T 06:27:46 1748] ID set to DF68F89200009F90_0000000000000001 (parent F0F95A050000994C_0000000000000001)
+[T 06:27:46 1748] Passing through -javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 06:27:46 1748] Passing through -Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 06:27:47 1748] Intercepted JVM creation with extra hidden args: ['-javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).
+[T 06:27:47 39244] Allocated ID 623A3E1B0000994C_0000000000000001 (parent B3233C5C00003748_0000000000000001)
+[T 06:27:47 39244] ==== Candidate to intercept: C:\Program Files\Common Files\Oracle\Java\javapath_target_10907109\java.exe (25316) ====
+[T 06:27:47 39244] Lua: === Intercepted call to c:\program files\common files\oracle\java\javapath_target_10907109\java.exe ===
+[T 06:27:47 39244] Executing the following tracer actions:
+[T 06:27:47 39244] Tracer actions:
+[T 06:27:47 39244] pre_invocations(0)
+[T 06:27:47 39244] post_invocations(0)
+[T 06:27:47 39244] trace_languages(1): [java]
+[T 06:27:47 25316] Initializing tracer.
+[T 06:27:47 25316] Initializing tags.
+[T 06:27:47 25316] ID set to 623A3E1B0000994C_0000000000000001 (parent B3233C5C00003748_0000000000000001)
+[T 06:27:47 25316] Allocated ID 4C653DFC000062E4_0000000000000001 (parent 623A3E1B0000994C_0000000000000001)
+[T 06:27:47 25316] ==== Candidate to intercept: C:\Program Files\Java\jdk-21\bin\java.exe (6436) ====
+[T 06:27:47 25316] Lua: === Intercepted call to c:\program files\java\jdk-21\bin\java.exe ===
+[T 06:27:47 25316] Executing the following tracer actions:
+[T 06:27:47 25316] Tracer actions:
+[T 06:27:47 25316] pre_invocations(0)
+[T 06:27:47 25316] post_invocations(0)
+[T 06:27:47 25316] trace_languages(1): [java]
+[T 06:27:47 6436] Initializing tracer.
+[T 06:27:47 6436] Initializing tags.
+[T 06:27:47 6436] ID set to 4C653DFC000062E4_0000000000000001 (parent 623A3E1B0000994C_0000000000000001)
+[T 06:27:47 6436] Passing through -javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 06:27:47 6436] Passing through -Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 06:27:47 6436] Intercepted JVM creation with extra hidden args: ['-javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).
+[T 06:27:49 6436] Allocated ID 2C2D408F00001924_0000000000000001 (parent 4C653DFC000062E4_0000000000000001)
+[T 06:27:49 6436] ==== Candidate to intercept: C:\Program Files\Java\jdk-21\bin\java.exe (19224) ====
+[T 06:27:49 6436] Lua: === Intercepted call to c:\program files\java\jdk-21\bin\java.exe ===
+[T 06:27:49 6436] Executing the following tracer actions:
+[T 06:27:49 6436] Tracer actions:
+[T 06:27:49 6436] pre_invocations(0)
+[T 06:27:49 6436] post_invocations(0)
+[T 06:27:49 6436] trace_languages(1): [java]
+[T 06:27:49 19224] Initializing tracer.
+[T 06:27:49 19224] Initializing tags.
+[T 06:27:49 19224] ID set to 2C2D408F00001924_0000000000000001 (parent 4C653DFC000062E4_0000000000000001)
+[T 06:27:49 19224] Passing through -javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 06:27:49 19224] Passing through -Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 06:27:49 19224] Intercepted JVM creation with extra hidden args: ['-javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).
+[T 06:28:21 19224] Allocated ID E28678F400004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:28:21 19224] ==== Candidate to intercept: C:\Users\17476\.gradle\caches\8.10.2\transforms\6c816eef7eb80393008338c6abbb799e\transformed\aapt2-8.8.0-12006047-windows\aapt2.exe (39876) ====
+[T 06:28:21 19224] Lua: === Intercepted call to c:\users\17476\.gradle\caches\8.10.2\transforms\6c816eef7eb80393008338c6abbb799e\transformed\aapt2-8.8.0-12006047-windows\aapt2.exe ===
+[T 06:28:21 19224] Executing the following tracer actions:
+[T 06:28:21 19224] Tracer actions:
+[T 06:28:21 19224] pre_invocations(0)
+[T 06:28:21 19224] post_invocations(0)
+[T 06:28:21 19224] trace_languages(1): [java]
+[T 06:28:21 19224] Allocated ID 341C829800004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:28:21 19224] ==== Candidate to intercept: C:\Users\17476\.gradle\caches\8.10.2\transforms\6c816eef7eb80393008338c6abbb799e\transformed\aapt2-8.8.0-12006047-windows\aapt2.exe (33900) ====
+[T 06:28:21 19224] Lua: === Intercepted call to c:\users\17476\.gradle\caches\8.10.2\transforms\6c816eef7eb80393008338c6abbb799e\transformed\aapt2-8.8.0-12006047-windows\aapt2.exe ===
+[T 06:28:21 19224] Executing the following tracer actions:
+[T 06:28:21 19224] Tracer actions:
+[T 06:28:21 19224] pre_invocations(0)
+[T 06:28:21 19224] post_invocations(0)
+[T 06:28:21 19224] trace_languages(1): [java]
+[T 06:28:21 39876] Initializing tracer.
+[T 06:28:21 39876] Initializing tags.
+[T 06:28:21 39876] ID set to E28678F400004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:28:21 33900] Initializing tracer.
+[T 06:28:21 33900] Initializing tags.
+[T 06:28:21 33900] ID set to 341C829800004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:28:28 19224] Allocated ID 052C8E2600004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:28:28 19224] ==== Candidate to intercept: C:\Program Files\Java\jdk-21\bin\java.exe (35588) ====
+[T 06:28:28 19224] Lua: === Intercepted call to c:\program files\java\jdk-21\bin\java.exe ===
+[T 06:28:28 19224] Executing the following tracer actions:
+[T 06:28:28 19224] Tracer actions:
+[T 06:28:28 19224] pre_invocations(0)
+[T 06:28:28 19224] post_invocations(0)
+[T 06:28:28 19224] trace_languages(1): [java]
+[T 06:28:28 35588] Initializing tracer.
+[T 06:28:28 35588] Initializing tags.
+[T 06:28:28 35588] ID set to 052C8E2600004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:28:29 35588] Passing through -javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 06:28:29 35588] Passing through -Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 06:28:29 35588] Intercepted JVM creation with extra hidden args: ['-javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).
+[T 06:28:49 19224] Allocated ID 95172FA100004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:28:49 19224] ==== Candidate to intercept: C:\Program Files\Java\jdk-21\bin\java.exe (25044) ====
+[T 06:28:49 19224] Lua: === Intercepted call to c:\program files\java\jdk-21\bin\java.exe ===
+[T 06:28:49 19224] Executing the following tracer actions:
+[T 06:28:49 19224] Tracer actions:
+[T 06:28:49 19224] pre_invocations(0)
+[T 06:28:49 19224] post_invocations(0)
+[T 06:28:49 19224] trace_languages(1): [java]
+[T 06:28:49 25044] Initializing tracer.
+[T 06:28:49 25044] Initializing tags.
+[T 06:28:49 25044] ID set to 95172FA100004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:28:49 25044] Passing through -javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 06:28:49 25044] Passing through -Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 06:28:49 25044] Intercepted JVM creation with extra hidden args: ['-javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).
+[T 06:28:53 19224] Allocated ID 508B608B00004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:28:53 19224] ==== Candidate to intercept: C:\Users\17476\.gradle\caches\8.10.2\transforms\6c816eef7eb80393008338c6abbb799e\transformed\aapt2-8.8.0-12006047-windows\aapt2.exe (11172) ====
+[T 06:28:53 19224] Lua: === Intercepted call to c:\users\17476\.gradle\caches\8.10.2\transforms\6c816eef7eb80393008338c6abbb799e\transformed\aapt2-8.8.0-12006047-windows\aapt2.exe ===
+[T 06:28:53 19224] Executing the following tracer actions:
+[T 06:28:53 19224] Tracer actions:
+[T 06:28:53 19224] pre_invocations(0)
+[T 06:28:53 19224] post_invocations(0)
+[T 06:28:53 19224] trace_languages(1): [java]
+[T 06:28:53 11172] Initializing tracer.
+[T 06:28:53 11172] Initializing tags.
+[T 06:28:53 11172] ID set to 508B608B00004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:28:54 19224] Allocated ID BD27B39900004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:28:54 19224] ==== Candidate to intercept: C:\Program Files\Java\jdk-21\bin\java.exe (35556) ====
+[T 06:28:54 19224] Lua: === Intercepted call to c:\program files\java\jdk-21\bin\java.exe ===
+[T 06:28:54 19224] Executing the following tracer actions:
+[T 06:28:54 19224] Tracer actions:
+[T 06:28:54 19224] pre_invocations(0)
+[T 06:28:54 19224] post_invocations(0)
+[T 06:28:54 19224] trace_languages(1): [java]
+[T 06:28:54 35556] Initializing tracer.
+[T 06:28:54 35556] Initializing tags.
+[T 06:28:54 35556] ID set to BD27B39900004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:28:54 35556] Passing through -javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 06:28:54 35556] Passing through -Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 06:28:54 35556] Intercepted JVM creation with extra hidden args: ['-javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).
+[T 06:28:58 19224] Allocated ID 42AA974300004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:28:58 19224] ==== Candidate to intercept: C:\Program Files\Java\jdk-21\bin\java.exe (11568) ====
+[T 06:28:58 19224] Lua: === Intercepted call to c:\program files\java\jdk-21\bin\java.exe ===
+[T 06:28:58 19224] Executing the following tracer actions:
+[T 06:28:58 19224] Tracer actions:
+[T 06:28:58 19224] pre_invocations(0)
+[T 06:28:58 19224] post_invocations(0)
+[T 06:28:58 19224] trace_languages(1): [java]
+[T 06:28:58 11568] Initializing tracer.
+[T 06:28:58 11568] Initializing tags.
+[T 06:28:58 11568] ID set to 42AA974300004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:28:59 11568] Passing through -javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 06:28:59 11568] Passing through -Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 06:28:59 11568] Intercepted JVM creation with extra hidden args: ['-javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).
+[T 06:29:03 19224] Allocated ID C2AC1C0B00004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:29:03 19224] ==== Candidate to intercept: C:\Program Files\Java\jdk-21\bin\java.exe (15856) ====
+[T 06:29:03 19224] Lua: === Intercepted call to c:\program files\java\jdk-21\bin\java.exe ===
+[T 06:29:03 19224] Executing the following tracer actions:
+[T 06:29:03 19224] Tracer actions:
+[T 06:29:03 19224] pre_invocations(0)
+[T 06:29:03 19224] post_invocations(0)
+[T 06:29:03 19224] trace_languages(1): [java]
+[T 06:29:03 15856] Initializing tracer.
+[T 06:29:03 15856] Initializing tags.
+[T 06:29:03 15856] ID set to C2AC1C0B00004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:29:04 15856] Passing through -javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 06:29:04 15856] Passing through -Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 06:29:04 15856] Intercepted JVM creation with extra hidden args: ['-javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).
+[T 06:29:07 19224] Allocated ID D24644F000004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:29:07 19224] ==== Candidate to intercept: C:\Program Files\Java\jdk-21\bin\java.exe (39712) ====
+[T 06:29:07 19224] Lua: === Intercepted call to c:\program files\java\jdk-21\bin\java.exe ===
+[T 06:29:07 19224] Executing the following tracer actions:
+[T 06:29:07 19224] Tracer actions:
+[T 06:29:07 19224] pre_invocations(0)
+[T 06:29:07 19224] post_invocations(0)
+[T 06:29:07 19224] trace_languages(1): [java]
+[T 06:29:07 39712] Initializing tracer.
+[T 06:29:07 39712] Initializing tags.
+[T 06:29:07 39712] ID set to D24644F000004B18_0000000000000001 (parent 2C2D408F00001924_0000000000000001)
+[T 06:29:07 39712] Passing through -javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 06:29:07 39712] Passing through -Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 06:29:08 39712] Intercepted JVM creation with extra hidden args: ['-javaagent:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:C:\ProgramData\chocolatey\lib\codeql\tools\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).

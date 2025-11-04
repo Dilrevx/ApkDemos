@@ -1,0 +1,2 @@
+Java_cn_sjtu_oops_easyjni_MainActivity_checkFlag
+Java_cn_sjtu_oops_easyjni_MainActivity_stringFromJNI
